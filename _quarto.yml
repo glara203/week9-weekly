@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: 
 
 website:
   title: "week9 weekly"
@@ -9,12 +10,18 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: resume
+	href: GLL.Resume.pdf
+        
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: quartz
+    mainfont: 
+    fontsize: 1.25rem
+    fontcolor: "#FCFCFC"
+    linkcolor: "#9D9D9D"
+    monofont: courier new
     css: styles.css
     toc: true
 
