@@ -9,8 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-text: resume
-href: GLL.Resume.pdf
+        text: resume
+        href: GLL.Resume.pdf
         
 
 format:
